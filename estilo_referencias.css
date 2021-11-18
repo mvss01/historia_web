@@ -97,6 +97,7 @@ footer ul li{
     color: rgb(150, 150, 150);
 }
 footer ul li a{
+    cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Black_with_ChromeStrokePointer.png), auto;
     padding: 7px;
     background-color: rgb(150, 150, 150);
     border-radius: 40px;
