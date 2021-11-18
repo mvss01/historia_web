@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Signika&display=swap');
+
+html{
+    cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Black_with_ChromeStrokeCursor.png), auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1D1D1D;
+}
+div.interface{
+    overflow: hidden;
+    width: 100vw;
+    height: calc(100vh - 129px);
+    background-color: #1D1D1D;
+}
+header.cabecalho{
+    display: block;
+    height: 100px;
+    width: 100vw;
+}
+header.cabecalho a{
+    cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Black_with_ChromeStrokePointer.png), auto;
+    display: block;
+    float: left;
+}
+header.cabecalho a img{
+    padding: 30%;
+    width: 110px;
+    height: 63.25px;
+}
+div.tabela{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+div.tabela table caption{
+    padding-bottom: 10px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    font-size: 40pt;
+}
+div.tabela table{
+    text-align: center;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.tabela table td{
+    font-size: 30pt;
+    border: solid 1px black;
+    padding: 10px;
+}
+div.tabela td.esquerda{
+    background-color: rgb(172, 172, 172);
+    font-family: 'Signika', sans-serif;
+    color: #313131;
+    font-weight: bold;
+
+}
+div.tabela td.direita{
+  background: linear-gradient(137.29deg, rgba(196, 196, 196, 0.44) 21.17%, rgba(196, 196, 196, 0.17) 85.7%);
+}
+div.tabela a{
+    cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Black_with_ChromeStrokePointer.png), auto;
+    font-family: 'Signika', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer ul li.linha1{
+    display: inline-block;
+}
+footer ul li#direita{
+    padding-left: 10px;
+}
+footer ul li{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Signika', sans-serif;
+    font-size: 20pt;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+}
+footer ul li a{
+    padding: 7px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 40px;
+    font-family: 'Signika', sans-serif;
+    font-size: 15pt;
+    text-decoration: none;
+    color: #1D1D1D;
+}
