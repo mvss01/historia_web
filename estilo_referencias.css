@@ -40,11 +40,19 @@ div.tabela{
     justify-content: center;
     align-items: center;
 }
-div.tabela table caption{
+div.tabela table caption.topo{
     padding-bottom: 10px;
     font-family: 'Signika', sans-serif;
     color: white;
     font-size: 40pt;
+}
+div.tabela table caption.base{
+    float: left;
+    padding-top: 5px;
+    caption-side: bottom;
+    font-size: 15pt;
+    font-family: 'Signika', sans-serif;
+    color: rgb(172, 172, 172);
 }
 div.tabela table{
     text-align: center;
@@ -81,6 +89,7 @@ footer{
     align-items: center;
     
 }
+
 footer ul li.linha1{
     display: inline-block;
 }
